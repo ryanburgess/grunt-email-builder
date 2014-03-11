@@ -12,14 +12,14 @@ If you haven't used [Grunt](http://gruntjs.com/) before, be sure to check out th
 
 ## Install
 	$ npm install -g grunt-cli
-  $ npm install -g serve
+  	$ npm install -g serve
   
 
 ## Dependencies
 	$ npm install --save-dev grunt
-  $ npm install --save-dev grunt-contrib-watch
-  $ npm install --save-dev juice
-  $ npm install --save-dev grunt-juice-email
+  	$ npm install --save-dev grunt-contrib-watch
+  	$ npm install --save-dev juice
+	$ npm install --save-dev grunt-juice-email
   
 
 
