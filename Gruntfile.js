@@ -2,7 +2,7 @@ module.exports = function(grunt) {
   grunt.initConfig({
   juice: {
     options: {
-      removeStyleTags: false,
+      removeStyleTags: false
     },
     dynamic_mappings: {
        files: [
