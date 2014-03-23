@@ -1,6 +1,9 @@
 module.exports = function(grunt) {
   grunt.initConfig({
   juice: {
+    options: {
+      removeStyleTags: false,
+    },
     dynamic_mappings: {
        files: [
          {
@@ -8,7 +11,7 @@ module.exports = function(grunt) {
            cwd: 'emails/',
            src: ['**/*.html'],
            dest: 'build/',
-           ext: '.html'
+           ext: '-final.html'
          }
        ]
     }
