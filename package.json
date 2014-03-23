@@ -1,9 +1,8 @@
 {
   "name": "Grunt-Email",
   "version": "0.0.1",
-  "description": "Grunt for Evernote Email",
-  "repository": "corp-websites",
-  "author": "Ryan Burgess",
+  "description": "Grunt for Email",
+  "repository": "https://github.com/ryanburgess/grunt-email-builder",
   "devDependencies": {
     "grunt": "~0.4.3",
     "grunt-contrib-watch": "~0.5.3",
