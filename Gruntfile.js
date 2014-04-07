@@ -20,19 +20,19 @@ module.exports = function(grunt) {
       dynamic_mappings: {
         files: [
           {
-             expand: true,
-             cwd: 'emails/',
-             src: ['**/*.html'],
-             dest: 'build/',
-             ext: '-final.html'
+            expand: true,
+            cwd: 'emails/',
+            src: ['**/*.html'],
+            dest: 'build/',
+            ext: '-final.html'
           }
         ]
       }
     },
     watch: {
       build: {
-          files: ['sass/**/*'],
-          tasks: ['sass', 'juice']
+        files: ['sass/**/*'],
+        tasks: ['sass', 'juice']
       },
       livereload: {
         files: ['*.html', '*.php', 'js/**/*.{js,json}', 'css/*.css','img/**/*.{png,jpg,jpeg,gif,webp,svg}'],
