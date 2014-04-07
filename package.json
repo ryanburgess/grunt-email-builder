@@ -7,6 +7,7 @@
     "grunt": "~0.4.3",
     "grunt-contrib-watch": "~0.5.3",
     "juice": "~0.4.0",
-    "grunt-juice-email": "~0.1.1"
+    "grunt-juice-email": "~0.1.1",
+    "grunt-sass": "~0.12.1"
   }
 }

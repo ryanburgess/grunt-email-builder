@@ -1,0 +1,41 @@
+html {
+  font-size: 62.5%; }
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-size: 12px;
+  font-family: Helvetica, Arial, sans-serif; }
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+ol {
+  margin: 0;
+  padding: 0; }
+
+p {
+  padding: 0;
+  margin: 0px 0px 5px 0px;
+  margin: 0rem 0rem 0.3125rem 0rem; }
+
+h1, h2, h3, h4, h5, h6 {
+  padding: 0;
+  margin: 0px 0px 10px 0px;
+  margin: 0rem 0rem 0.625rem 0rem; }
+
+.clearfix:after {
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  visibility: hidden; }
+
+.header {
+  border: 1px solid black;
+  padding: 30px;
+  background: #efefef;
+  width: 100%; }
