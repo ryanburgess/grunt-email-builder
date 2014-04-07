@@ -16,10 +16,10 @@ If you haven't used [Grunt](http://gruntjs.com/) before, be sure to check out th
   
 
 ## Dependencies
-	$ npm install --save-dev grunt
-  	$ npm install --save-dev grunt-contrib-watch
-  	$ npm install --save-dev juice
-	$ npm install --save-dev grunt-juice-email
+	$ npm install grunt --save-dev
+  	$ npm install grunt-contrib-watch --save-dev
+  	$ npm install juice --save-dev
+	$ npm install grunt-juice-email --save-dev
   
 
 
