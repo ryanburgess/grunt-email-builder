@@ -1,7 +1,7 @@
 Grunt Email Builder
 ===================
 
-Using grunt to build emails without having to write inline styles.
+Using grunt to build emails without having to write inline styles. The build also includes SASS.
 
 Created repo from article [Email editing with Grunt.js - how to improve your productivity](http://www.pure360.com/blog/blog-entries/Grunt-install)
 
@@ -20,6 +20,7 @@ If you haven't used [Grunt](http://gruntjs.com/) before, be sure to check out th
   	$ npm install grunt-contrib-watch --save-dev
   	$ npm install juice --save-dev
 	$ npm install grunt-juice-email --save-dev
+	$ npm install grunt-sass --save-dev
   
 
 
